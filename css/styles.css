@@ -281,20 +281,26 @@ body {
   text-align: center;
 }
 .section-people-icon {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
 }
-.social-item .link {
+.social-item {
   display: flex;
 }
+
+.list {
+  list-style: none;
+}
+
 .section-people-link .link {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   display: block;
   border-radius: 50%;
   background-color: #ffffff;
   display: flex;
 }
+
 .section .text {
   color: #757575;
   font-family: Roboto;
