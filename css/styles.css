@@ -279,26 +279,44 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 16px;
 }
 .section-people-icon {
-  width: 44px;
-  height: 44px;
-}
-.social-item {
-  display: flex;
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
 .list {
   list-style: none;
 }
 
-.section-people-link .link {
+.section-people-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-people-link-link {
   width: 44px;
   height: 44px;
   display: block;
   border-radius: 50%;
   background-color: #ffffff;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-people-link-link:hover,
+.section-people-link-link:focus {
+  background-color: #2196f3;
+}
+.section-people-link-link:hover .section-people-icon,
+.section-people-link-link:focus .section-people-icon {
+  fill: #ffffff;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .section .text {
