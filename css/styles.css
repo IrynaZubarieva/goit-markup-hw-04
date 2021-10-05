@@ -143,6 +143,17 @@ body {
   margin-left: auto;
   align-items: center;
 }
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.icon-mail1 {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 
 .auth-nav .item + .item {
   margin-left: 50px;
@@ -244,6 +255,7 @@ body {
   margin-right: 30px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 2px 1px rgb(0 0 0 / 20%);
+  background-color: #ffffff;
 }
 
 .list-interval:nth-last-child(4n + 1) {
@@ -253,6 +265,7 @@ body {
 .team-card-contact {
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -272,6 +285,7 @@ body {
   line-height: 1.2;
   text-align: center;
   margin-bottom: 10px;
+  background-color: #ffffff;
 }
 
 .section .career {
