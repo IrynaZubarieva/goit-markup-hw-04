@@ -408,13 +408,17 @@ body {
 }
 
 .klients-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 0px;
+}
+
+.klients-item:not(:first-child) {
+  margin-right: 0px;
 }
 
 .klients-link {
   width: 170px;
   height: 92px;
-  border-radius: 1px;
+  border-radius: 2px;
   color: #2196f3;
   background-color: #f5f4fa;
   display: flex;
