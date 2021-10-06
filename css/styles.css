@@ -452,6 +452,10 @@ body {
   padding: 60px 0;
 }
 
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+}
 .footer-title {
   margin-bottom: 20px;
 }
@@ -465,17 +469,11 @@ body {
 .list1 {
   list-style: none;
 }
-.list1 {
-  padding-left: 0;
-  margin: 0;
-}
 
 .address-mulo {
   margin-bottom: 9px;
 }
-.address {
-  margin-right: 70px;
-}
+
 .address-mulo1 {
   margin-bottom: 0px;
 }
