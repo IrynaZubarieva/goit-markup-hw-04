@@ -434,7 +434,7 @@ body {
 }
 .klients-link:hover,
 .klients-link:focus {
-  background-color: var(__accent-color);
+  border-color: #2196f3;
 }
 .klients-link:hover .klients-icon,
 .klients-link:focus .klients-icon {
@@ -465,8 +465,16 @@ body {
 .list1 {
   list-style: none;
 }
+.list1 {
+  padding-left: 0;
+  margin: 0;
+}
+
 .address-mulo {
   margin-bottom: 9px;
+}
+.address {
+  margin-right: 70px;
 }
 .address-mulo1 {
   margin-bottom: 0px;
@@ -502,6 +510,33 @@ body {
 .address .list1 .contact:hover,
 .address .list1 .contact:focus {
   color: #2196f3;
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
 }
 
 /* css для портфолио */
