@@ -386,16 +386,12 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
+  color: #ffffff;
 }
 
-.button .primary:hover {
-  background-color: var(--accent-color);
-  color: var(--background-accent-color;
-}
-
-.button .primary:focus {
-  color: var(--background-accent-color;
-  background-color: var(--accent-color);
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
 }
 
 .klients-title {
