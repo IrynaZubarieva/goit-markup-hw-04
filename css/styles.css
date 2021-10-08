@@ -112,10 +112,6 @@ body {
   padding-bottom: 32px;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: #2196f3;
-}
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -143,13 +139,17 @@ body {
   margin-left: auto;
   align-items: center;
 }
-.auth-nav .icon-mail:hover,
-.auth-nav .icon-mail:focus {
-  fill: #2196f3;
+
+.contact-item-link:focus,
+.contact-item-link:hover {
+  color: var(--accent-color);
 }
-.auth-nav .icon-mail1:hover,
-.auth-nav .icon-mail1:focus {
-  fill: #2196f3;
+
+.contact-item-link:hover .icon-mail1,
+.contact-item-link:focus .icon-mail1,
+.contact-item-link:hover .icon-mail,
+.contact-item-link:focus .icon-mail {
+  fill: var(--accent-color);
 }
 
 .icon-mail {
